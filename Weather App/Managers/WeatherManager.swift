@@ -10,7 +10,7 @@ import CoreLocation
 
 class WeatherManager {
     func getCurrentWeather(latitude: CLLocationDegrees, longitude: CLLocationDegrees) async throws -> ResponseBody {
-        guard let url = URL(string: "https://api.weatherapi.com/v1/current.json?key=5beea27c0c8b46b2a84215132241902&q=\(latitude),\(longitude)") else {fatalError("Missing URL")}
+        guard let url = URL(string: "https://api.weatherapi.com/v1/forecast.json?key=5beea27c0c8b46b2a84215132241902&q=\(latitude),\(longitude)") else {fatalError("Missing URL")}
         
         let urlRequest = URLRequest(url: url)
         
@@ -28,10 +28,10 @@ class WeatherManager {
 struct ResponseBody: Decodable {
     let location: Location
     let current: CurrentWeather
+    let forecast: Forecast
     
     struct Location: Decodable {
         let name: String
-        let localtime: String
     }
     
     struct Condition: Decodable {
@@ -42,14 +42,25 @@ struct ResponseBody: Decodable {
     
     struct CurrentWeather: Decodable {
         let temp_c: Double
-        let is_day: Int //returns 1 or 0 depending if its a day --  can be used to manipulate dark mode light mode
-        let condition: Condition
         let feelslike_c: Double
-      
+        let condition: Condition
+        let wind_kph: Double
+        let humidity: Int
     }
     
-    struct ResponseBody: Decodable {
-        let location: Location
-        let current: CurrentWeather
+    struct ForecastDay: Decodable {
+        let date: String
+        let day: Day
+        
+        struct Day: Decodable {
+            let maxtemp_c: Double
+            let mintemp_c: Double
+        }
+    }
+    
+    struct Forecast: Decodable {
+        let forecastday: [ForecastDay]
     }
 }
+
+
