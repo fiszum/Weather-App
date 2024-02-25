@@ -7,23 +7,22 @@
 
 import SwiftUI
 
-struct TodaysForecastRow: View {
+struct WeeklyForecastRow: View {
     var logo: String
-    var hour: String
+    var day: String
     var temp: Double
     var spacing: Double
     
     var body: some View {
         VStack(spacing: spacing) {
-            Text(hour)
-                .font(.system(size: 30))
-                .bold()
+            Text (day)
+                .font(.system(size: 25))
             
             Image(systemName: logo)
-                .font(.system(size: 35))
+                .font(.system(size: 30))
             
             Text("\(temp.roundDouble())°")
-                    .font(.system(size: 30))
+                    .font(.system(size: 25))
             
         }
         .padding()
@@ -38,6 +37,6 @@ struct TodaysForecastRow: View {
 
 struct TodaysForecastRow_Previews: PreviewProvider {
     static var previews: some View {
-        TodaysForecastRow(logo: "sun.max", hour: "11", temp: 8, spacing: 8)
+        WeeklyForecastRow(logo: "sun.max", day: "Mon", temp: 8, spacing: 8)
     }
 }
