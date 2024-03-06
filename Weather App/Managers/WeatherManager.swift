@@ -1,66 +1,61 @@
-//
-//  WeatherManager.swift
-//  Weather App
-//
-//  Created by Filip Szumotalski on 20/02/2024.
-//
-
 import Foundation
 import CoreLocation
 
 class WeatherManager {
+    let apiKey = "24388925ee460f3e9351095efde842a0"
+
     func getCurrentWeather(latitude: CLLocationDegrees, longitude: CLLocationDegrees) async throws -> ResponseBody {
-        guard let url = URL(string: "https://api.weatherapi.com/v1/forecast.json?key=5beea27c0c8b46b2a84215132241902&q=\(latitude),\(longitude)") else {fatalError("Missing URL")}
-        
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/onecall?lat=\(latitude)&lon=\(longitude)&exclude=minutely,alerts&appid=\(apiKey)") else {
+            fatalError("Missing URL")
+        }
+
         let urlRequest = URLRequest(url: url)
-        
+
         let (data, response) = try await URLSession.shared.data(for: urlRequest)
-        
-        guard (response as? HTTPURLResponse)?.statusCode == 200 else { fatalError("Error fetching data from API") }
-        
+
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+            fatalError("Error fetching data from API")
+        }
+
         let decodedData = try JSONDecoder().decode(ResponseBody.self, from: data)
-        
+
         return decodedData
-        
     }
 }
 
 struct ResponseBody: Decodable {
-    let location: Location
+    let timezone: String
     let current: CurrentWeather
-    let forecast: Forecast
-    
-    struct Location: Decodable {
-        let name: String
-    }
-    
-    struct Condition: Decodable {
-        let text: String
-        let icon: String
-        let code: Int
-    }
-    
+    let hourly: [HourlyForecast]
+    let daily: [DailyForecast]
+
     struct CurrentWeather: Decodable {
-        let temp_c: Double
-        let feelslike_c: Double
-        let condition: Condition
-        let wind_kph: Double
+        let temp: Double
+        let feels_like: Double
+        let weather: [WeatherInfo]
+        let wind_speed: Double
         let humidity: Int
     }
-    
-    struct ForecastDay: Decodable {
-        let date: String
-        let day: Day
-        
-        struct Day: Decodable {
-            let maxtemp_c: Double
-            let mintemp_c: Double
-        }
+
+    struct HourlyForecast: Decodable {
+        let dt: TimeInterval
+        let temp: Double
+        let weather: [WeatherInfo]
     }
     
-    struct Forecast: Decodable {
-        let forecastday: [ForecastDay]
+    struct WeatherInfo: Decodable {
+        let main: String
+        let icon: String
+    }
+
+    struct DailyForecast: Decodable {
+        let dt: TimeInterval
+        let temp: Temperature
+        let weather: [WeatherInfo]
+    }
+
+    struct Temperature: Decodable {
+        let min: Double
+        let max: Double
     }
 }
-
-

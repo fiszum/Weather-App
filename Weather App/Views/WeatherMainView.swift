@@ -8,41 +8,57 @@
 import SwiftUI
 
 struct WeatherView: View {
-    
     var weather: ResponseBody
+    @ObservedObject var locationManager: LocationManager
+    
+    init(weather: ResponseBody, locationManager: LocationManager) {
+        self.weather = weather
+        self.locationManager = locationManager
+    }
     
     var body: some View {
         ZStack {
             VStack(alignment: .leading) {
+                Spacer()
                 VStack(spacing: 2) {
-                    Text(weather.location.name)
+                    Text("\(locationManager.userLocation )")
                         .font(.system(size: 64))
                     
-                    let currentDay = weather.forecast.forecastday.first
-                    let maxTemp = currentDay?.day.maxtemp_c ?? 0
-                    let minTemp = currentDay?.day.mintemp_c ?? 0
+                    let currentDay = weather.daily.first
+                    let maxTemp = currentDay?.temp.max.kelvinToCelsius() ?? 0
+                    let minTemp = currentDay?.temp.min.kelvinToCelsius() ?? 0
+                    let celsiusTemperature = weather.current.temp.kelvinToCelsius()
                     
                     // Default value of 0 if no data available
                     Text("H:\(maxTemp.roundDouble())°  L: \(minTemp.roundDouble())°")
                         .font(.system(size: 20))
                     
-                    Text("\(weather.current.condition.text)")
+                    Text(weather.current.weather.first?.main ?? "no data")
                         .font(.system(size: 24))
                     
-                    Text(weather.current.temp_c.roundDouble() + "°")
+                    Text(celsiusTemperature.roundDouble() + "°")
                         .font(.system(size: 100))
                 }
                 .frame(maxWidth: .infinity)
                 
-                VStack{
-                    HStack {
-                       
+                VStack {
+                    let hourlyWeather = Array(weather.hourly.prefix(4))
+
+                    HStack(spacing: 20 ) {
+                    
+                        ForEach(hourlyWeather, id: \.dt) { forecastHour in
+                            WeeklyForecastRow(logo: forecastHour.weather[0].main, day: forecastHour.dt.formattedHour(), temp: forecastHour.temp.kelvinToCelsius(), spacing: 10)
+                                .frame(maxWidth: .infinity) // Set the frame to take up the whole width
+                        }
                     }
-                }.background(Color .gray)
+                    .padding(0.5) // Add padding to space the elements evenly
+                }
+                .background(Color.gray)
+                .clipShape(RoundedRectangle(cornerRadius: 35))
+
                 
                 VStack(alignment: .leading) {
                     Spacer()
-                    
                     Button(action: {
                         // screen change
                     }) {
@@ -54,35 +70,32 @@ struct WeatherView: View {
                         }
                         .foregroundColor(.white)
                     }
-                
-                    HStack(spacing: 20){
-                        
-                        WeeklyForecastRow(logo: "cloud", day: "Mon", temp: 6, spacing: 10)
-                        //in place of cloud and day instead of string there needs to be data from the api
-                        
-                        WeeklyForecastRow(logo: "smoke", day: "Tue", temp: 6, spacing: 10)
-                        
-                        WeeklyForecastRow(logo: "sun.max", day: "Wed", temp: 6, spacing: 8)
-                        
-                        WeeklyForecastRow(logo: "cloud.sun", day: "Thu", temp: 6, spacing: 10)
-                        
-                        // Adjust the sizing of the rows so that they're the same for all and they dont depend on the size of the image
-                    }
                     
+                    // Pre-process the second to fourth forecast days
+                    let forecastDays = Array(weather.daily.dropFirst().prefix(4))
+
+                    // Construct the view
+                    HStack(spacing: 10) {
+                        ForEach(forecastDays, id: \.dt) { forecastDay in
+                            let date = Date(timeIntervalSince1970: forecastDay.dt)
+                            WeeklyForecastRow(logo: forecastDay.weather[0].main, day: date.formattedDate(), temp: forecastDay.temp.max.kelvinToCelsius(), spacing: 20).fixedSize()
+                        }
+                    }
                 }
-                
-                
             }
             .padding()
         }
+        .onAppear {
+            locationManager.requestLocation() // Request user's location when the view appears
+        }
         .preferredColorScheme(.dark)
     }
-    
 }
-
 
 struct WeatherView_Previews: PreviewProvider {
     static var previews: some View {
-        WeatherView(weather: previewWeather)
+        let locationManager = LocationManager()
+        locationManager.userLocation = "London"
+        return WeatherView(weather: previewWeather, locationManager: locationManager)
     }
 }

@@ -15,14 +15,14 @@ struct WeeklyForecastRow: View {
     
     var body: some View {
         VStack(spacing: spacing) {
-            Text (day)
-                .font(.system(size: 25))
+            Text ("\(day)")
+                .font(.system(size: 20)).bold()
             
-            Image(systemName: logo)
-                .font(.system(size: 30))
+            Image(systemName: logo.mapToWeatherIcon())
+                .font(.system(size: 35))
             
             Text("\(temp.roundDouble())°")
-                    .font(.system(size: 25))
+                .font(.system(size: 20)).bold()
             
         }
         .padding()
@@ -35,8 +35,8 @@ struct WeeklyForecastRow: View {
        
     }
 
-struct TodaysForecastRow_Previews: PreviewProvider {
+struct WeeklyForecastRow_Previews: PreviewProvider {
     static var previews: some View {
-        WeeklyForecastRow(logo: "sun.max", day: "Mon", temp: 8, spacing: 8)
+        WeeklyForecastRow(logo: "Drizzle", day: "11" , temp: 8, spacing: 8)
     }
 }

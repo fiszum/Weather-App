@@ -1,1095 +1,1506 @@
 {
-    "location": {
-        "name": "Wroclaw",
-        "region": "",
-        "country": "Poland",
-        "lat": 51.1,
-        "lon": 17.03,
-        "tz_id": "Europe/Warsaw",
-        "localtime_epoch": 1708548637,
-        "localtime": "2024-02-21 21:50"
-    },
+    "lat": 50,
+    "lon": 19.9,
+    "timezone": "Europe/Warsaw",
+    "timezone_offset": 3600,
     "current": {
-        "last_updated_epoch": 1708548300,
-        "last_updated": "2024-02-21 21:45",
-        "temp_c": 4.0,
-        "temp_f": 39.2,
-        "is_day": 0,
-        "condition": {
-            "text": "Clear",
-            "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
-            "code": 1000
-        },
-        "wind_mph": 6.9,
-        "wind_kph": 11.2,
-        "wind_degree": 140,
-        "wind_dir": "SE",
-        "pressure_mb": 1013.0,
-        "pressure_in": 29.91,
-        "precip_mm": 0.0,
-        "precip_in": 0.0,
-        "humidity": 87,
-        "cloud": 0,
-        "feelslike_c": 0.7,
-        "feelslike_f": 33.3,
-        "vis_km": 10.0,
-        "vis_miles": 6.0,
-        "uv": 1.0,
-        "gust_mph": 17.9,
-        "gust_kph": 28.7
-    },
-    "forecast": {
-        "forecastday": [
+        "dt": 1709737200,
+        "sunrise": 1709701978,
+        "sunset": 1709742632,
+        "temp": 277.54,
+        "feels_like": 275.75,
+        "pressure": 1020,
+        "humidity": 92,
+        "dew_point": 276.36,
+        "uvi": 0.02,
+        "clouds": 100,
+        "visibility": 2500,
+        "wind_speed": 2.06,
+        "wind_deg": 260,
+        "weather": [
             {
-                "date": "2024-02-21",
-                "date_epoch": 1708473600,
-                "day": {
-                    "maxtemp_c": 9.2,
-                    "maxtemp_f": 48.5,
-                    "mintemp_c": 5.3,
-                    "mintemp_f": 41.5,
-                    "avgtemp_c": 6.5,
-                    "avgtemp_f": 43.7,
-                    "maxwind_mph": 11.6,
-                    "maxwind_kph": 18.7,
-                    "totalprecip_mm": 1.38,
-                    "totalprecip_in": 0.05,
-                    "totalsnow_cm": 0.0,
-                    "avgvis_km": 9.6,
-                    "avgvis_miles": 5.0,
-                    "avghumidity": 83,
-                    "daily_will_it_rain": 1,
-                    "daily_chance_of_rain": 89,
-                    "daily_will_it_snow": 0,
-                    "daily_chance_of_snow": 0,
-                    "condition": {
-                        "text": "Patchy rain nearby",
-                        "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
-                        "code": 1063
-                    },
-                    "uv": 1.0
-                },
-                "astro": {
-                    "sunrise": "06:54 AM",
-                    "sunset": "05:18 PM",
-                    "moonrise": "01:38 PM",
-                    "moonset": "06:11 AM",
-                    "moon_phase": "Waxing Gibbous",
-                    "moon_illumination": 89,
-                    "is_moon_up": 1,
-                    "is_sun_up": 0
-                },
-                "hour": [
-                    {
-                        "time_epoch": 1708470000,
-                        "time": "2024-02-21 00:00",
-                        "temp_c": 5.4,
-                        "temp_f": 41.7,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 8.5,
-                        "wind_kph": 13.7,
-                        "wind_degree": 258,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1024.0,
-                        "pressure_in": 30.24,
-                        "precip_mm": 0.09,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 86,
-                        "cloud": 81,
-                        "feelslike_c": 2.4,
-                        "feelslike_f": 36.3,
-                        "windchill_c": 2.4,
-                        "windchill_f": 36.3,
-                        "heatindex_c": 5.4,
-                        "heatindex_f": 41.7,
-                        "dewpoint_c": 3.2,
-                        "dewpoint_f": 37.8,
-                        "will_it_rain": 1,
-                        "chance_of_rain": 100,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.5,
-                        "gust_kph": 23.3,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708473600,
-                        "time": "2024-02-21 01:00",
-                        "temp_c": 5.7,
-                        "temp_f": 42.3,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 9.2,
-                        "wind_kph": 14.8,
-                        "wind_degree": 257,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1024.0,
-                        "pressure_in": 30.23,
-                        "precip_mm": 0.01,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 84,
-                        "cloud": 100,
-                        "feelslike_c": 2.7,
-                        "feelslike_f": 36.9,
-                        "windchill_c": 2.7,
-                        "windchill_f": 36.9,
-                        "heatindex_c": 5.8,
-                        "heatindex_f": 42.4,
-                        "dewpoint_c": 3.2,
-                        "dewpoint_f": 37.8,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 67,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.9,
-                        "gust_kph": 23.9,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708477200,
-                        "time": "2024-02-21 02:00",
-                        "temp_c": 5.8,
-                        "temp_f": 42.5,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Overcast ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
-                            "code": 1009
-                        },
-                        "wind_mph": 9.2,
-                        "wind_kph": 14.8,
-                        "wind_degree": 252,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1023.0,
-                        "pressure_in": 30.21,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 84,
-                        "cloud": 100,
-                        "feelslike_c": 2.8,
-                        "feelslike_f": 37.1,
-                        "windchill_c": 2.8,
-                        "windchill_f": 37.1,
-                        "heatindex_c": 5.8,
-                        "heatindex_f": 42.5,
-                        "dewpoint_c": 3.4,
-                        "dewpoint_f": 38.0,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.1,
-                        "gust_kph": 24.2,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708480800,
-                        "time": "2024-02-21 03:00",
-                        "temp_c": 6.0,
-                        "temp_f": 42.8,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 10.3,
-                        "wind_kph": 16.6,
-                        "wind_degree": 251,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1023.0,
-                        "pressure_in": 30.2,
-                        "precip_mm": 0.01,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 84,
-                        "cloud": 100,
-                        "feelslike_c": 2.7,
-                        "feelslike_f": 36.9,
-                        "windchill_c": 2.7,
-                        "windchill_f": 36.9,
-                        "heatindex_c": 6.0,
-                        "heatindex_f": 42.8,
-                        "dewpoint_c": 3.5,
-                        "dewpoint_f": 38.3,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 70,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 16.1,
-                        "gust_kph": 25.9,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708484400,
-                        "time": "2024-02-21 04:00",
-                        "temp_c": 6.0,
-                        "temp_f": 42.9,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 9.6,
-                        "wind_kph": 15.5,
-                        "wind_degree": 248,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1022.0,
-                        "pressure_in": 30.19,
-                        "precip_mm": 0.01,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 84,
-                        "cloud": 100,
-                        "feelslike_c": 3.0,
-                        "feelslike_f": 37.3,
-                        "windchill_c": 3.0,
-                        "windchill_f": 37.3,
-                        "heatindex_c": 6.0,
-                        "heatindex_f": 42.9,
-                        "dewpoint_c": 3.6,
-                        "dewpoint_f": 38.6,
-                        "will_it_rain": 1,
-                        "chance_of_rain": 75,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.1,
-                        "gust_kph": 24.3,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708488000,
-                        "time": "2024-02-21 05:00",
-                        "temp_c": 6.1,
-                        "temp_f": 42.9,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 9.4,
-                        "wind_kph": 15.1,
-                        "wind_degree": 229,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1022.0,
-                        "pressure_in": 30.18,
-                        "precip_mm": 0.01,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 85,
-                        "cloud": 100,
-                        "feelslike_c": 3.0,
-                        "feelslike_f": 37.5,
-                        "windchill_c": 3.0,
-                        "windchill_f": 37.5,
-                        "heatindex_c": 6.1,
-                        "heatindex_f": 42.9,
-                        "dewpoint_c": 3.7,
-                        "dewpoint_f": 38.7,
-                        "will_it_rain": 1,
-                        "chance_of_rain": 89,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.3,
-                        "gust_kph": 23.1,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708491600,
-                        "time": "2024-02-21 06:00",
-                        "temp_c": 5.8,
-                        "temp_f": 42.5,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Overcast ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
-                            "code": 1009
-                        },
-                        "wind_mph": 9.4,
-                        "wind_kph": 15.1,
-                        "wind_degree": 223,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1022.0,
-                        "pressure_in": 30.17,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 86,
-                        "cloud": 100,
-                        "feelslike_c": 2.8,
-                        "feelslike_f": 37.0,
-                        "windchill_c": 2.8,
-                        "windchill_f": 37.0,
-                        "heatindex_c": 5.8,
-                        "heatindex_f": 42.5,
-                        "dewpoint_c": 3.7,
-                        "dewpoint_f": 38.7,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.8,
-                        "gust_kph": 23.8,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708495200,
-                        "time": "2024-02-21 07:00",
-                        "temp_c": 5.9,
-                        "temp_f": 42.6,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Overcast ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
-                            "code": 1009
-                        },
-                        "wind_mph": 8.9,
-                        "wind_kph": 14.4,
-                        "wind_degree": 221,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1021.0,
-                        "pressure_in": 30.16,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 86,
-                        "cloud": 100,
-                        "feelslike_c": 2.9,
-                        "feelslike_f": 37.2,
-                        "windchill_c": 2.9,
-                        "windchill_f": 37.2,
-                        "heatindex_c": 5.9,
-                        "heatindex_f": 42.6,
-                        "dewpoint_c": 3.8,
-                        "dewpoint_f": 38.8,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.0,
-                        "gust_kph": 22.5,
-                        "uv": 2.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708498800,
-                        "time": "2024-02-21 08:00",
-                        "temp_c": 6.1,
-                        "temp_f": 43.1,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 9.4,
-                        "wind_kph": 15.1,
-                        "wind_degree": 220,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1021.0,
-                        "pressure_in": 30.15,
-                        "precip_mm": 0.03,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 85,
-                        "cloud": 100,
-                        "feelslike_c": 3.1,
-                        "feelslike_f": 37.7,
-                        "windchill_c": 3.1,
-                        "windchill_f": 37.7,
-                        "heatindex_c": 6.1,
-                        "heatindex_f": 43.1,
-                        "dewpoint_c": 3.8,
-                        "dewpoint_f": 38.9,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 67,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.1,
-                        "gust_kph": 22.6,
-                        "uv": 2.0,
-                        "short_rad": 5.46,
-                        "diff_rad": 3.29
-                    },
-                    {
-                        "time_epoch": 1708502400,
-                        "time": "2024-02-21 09:00",
-                        "temp_c": 6.1,
-                        "temp_f": 43.0,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Patchy rain nearby",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
-                            "code": 1063
-                        },
-                        "wind_mph": 9.2,
-                        "wind_kph": 14.8,
-                        "wind_degree": 218,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1021.0,
-                        "pressure_in": 30.14,
-                        "precip_mm": 0.02,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 86,
-                        "cloud": 100,
-                        "feelslike_c": 3.1,
-                        "feelslike_f": 37.6,
-                        "windchill_c": 3.1,
-                        "windchill_f": 37.6,
-                        "heatindex_c": 6.1,
-                        "heatindex_f": 43.0,
-                        "dewpoint_c": 4.0,
-                        "dewpoint_f": 39.2,
-                        "will_it_rain": 1,
-                        "chance_of_rain": 86,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 13.6,
-                        "gust_kph": 22.0,
-                        "uv": 2.0,
-                        "short_rad": 7.06,
-                        "diff_rad": 4.62
-                    },
-                    {
-                        "time_epoch": 1708506000,
-                        "time": "2024-02-21 10:00",
-                        "temp_c": 6.6,
-                        "temp_f": 43.9,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Partly Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
-                            "code": 1003
-                        },
-                        "wind_mph": 9.2,
-                        "wind_kph": 14.8,
-                        "wind_degree": 207,
-                        "wind_dir": "SSW",
-                        "pressure_mb": 1020.0,
-                        "pressure_in": 30.12,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 85,
-                        "cloud": 57,
-                        "feelslike_c": 3.8,
-                        "feelslike_f": 38.8,
-                        "windchill_c": 3.8,
-                        "windchill_f": 38.8,
-                        "heatindex_c": 6.6,
-                        "heatindex_f": 44.0,
-                        "dewpoint_c": 4.2,
-                        "dewpoint_f": 39.6,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 13.3,
-                        "gust_kph": 21.3,
-                        "uv": 3.0,
-                        "short_rad": 28.0,
-                        "diff_rad": 16.31
-                    },
-                    {
-                        "time_epoch": 1708509600,
-                        "time": "2024-02-21 11:00",
-                        "temp_c": 8.3,
-                        "temp_f": 46.9,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Light rain",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/296.png",
-                            "code": 1183
-                        },
-                        "wind_mph": 11.4,
-                        "wind_kph": 18.4,
-                        "wind_degree": 236,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1020.0,
-                        "pressure_in": 30.12,
-                        "precip_mm": 0.77,
-                        "precip_in": 0.03,
-                        "snow_cm": 0.0,
-                        "humidity": 78,
-                        "cloud": 100,
-                        "feelslike_c": 5.4,
-                        "feelslike_f": 41.6,
-                        "windchill_c": 5.4,
-                        "windchill_f": 41.6,
-                        "heatindex_c": 8.3,
-                        "heatindex_f": 46.9,
-                        "dewpoint_c": 4.6,
-                        "dewpoint_f": 40.3,
-                        "will_it_rain": 1,
-                        "chance_of_rain": 100,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 9.0,
-                        "vis_miles": 5.0,
-                        "gust_mph": 14.3,
-                        "gust_kph": 23.0,
-                        "uv": 2.0,
-                        "short_rad": 87.4,
-                        "diff_rad": 44.47
-                    },
-                    {
-                        "time_epoch": 1708513200,
-                        "time": "2024-02-21 12:00",
-                        "temp_c": 6.9,
-                        "temp_f": 44.4,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Light drizzle",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/266.png",
-                            "code": 1153
-                        },
-                        "wind_mph": 9.8,
-                        "wind_kph": 15.8,
-                        "wind_degree": 224,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1020.0,
-                        "pressure_in": 30.12,
-                        "precip_mm": 0.42,
-                        "precip_in": 0.02,
-                        "snow_cm": 0.0,
-                        "humidity": 88,
-                        "cloud": 100,
-                        "feelslike_c": 4.0,
-                        "feelslike_f": 39.2,
-                        "windchill_c": 4.0,
-                        "windchill_f": 39.2,
-                        "heatindex_c": 6.9,
-                        "heatindex_f": 44.4,
-                        "dewpoint_c": 5.0,
-                        "dewpoint_f": 41.1,
-                        "will_it_rain": 1,
-                        "chance_of_rain": 100,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 2.0,
-                        "vis_miles": 1.0,
-                        "gust_mph": 13.8,
-                        "gust_kph": 22.1,
-                        "uv": 2.0,
-                        "short_rad": 77.64,
-                        "diff_rad": 40.69
-                    },
-                    {
-                        "time_epoch": 1708516800,
-                        "time": "2024-02-21 13:00",
-                        "temp_c": 6.8,
-                        "temp_f": 44.3,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Overcast ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
-                            "code": 1009
-                        },
-                        "wind_mph": 10.7,
-                        "wind_kph": 17.3,
-                        "wind_degree": 214,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1019.0,
-                        "pressure_in": 30.09,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 87,
-                        "cloud": 100,
-                        "feelslike_c": 3.7,
-                        "feelslike_f": 38.6,
-                        "windchill_c": 3.7,
-                        "windchill_f": 38.6,
-                        "heatindex_c": 6.8,
-                        "heatindex_f": 44.3,
-                        "dewpoint_c": 4.8,
-                        "dewpoint_f": 40.6,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.6,
-                        "gust_kph": 25.1,
-                        "uv": 2.0,
-                        "short_rad": 68.19,
-                        "diff_rad": 36.41
-                    },
-                    {
-                        "time_epoch": 1708520400,
-                        "time": "2024-02-21 14:00",
-                        "temp_c": 7.4,
-                        "temp_f": 45.3,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
-                            "code": 1006
-                        },
-                        "wind_mph": 9.6,
-                        "wind_kph": 15.5,
-                        "wind_degree": 218,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1018.0,
-                        "pressure_in": 30.06,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 83,
-                        "cloud": 68,
-                        "feelslike_c": 4.6,
-                        "feelslike_f": 40.3,
-                        "windchill_c": 4.6,
-                        "windchill_f": 40.3,
-                        "heatindex_c": 7.4,
-                        "heatindex_f": 45.2,
-                        "dewpoint_c": 4.7,
-                        "dewpoint_f": 40.5,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 14.0,
-                        "gust_kph": 22.6,
-                        "uv": 2.0,
-                        "short_rad": 46.1,
-                        "diff_rad": 28.46
-                    },
-                    {
-                        "time_epoch": 1708524000,
-                        "time": "2024-02-21 15:00",
-                        "temp_c": 9.2,
-                        "temp_f": 48.5,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Overcast ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
-                            "code": 1009
-                        },
-                        "wind_mph": 11.6,
-                        "wind_kph": 18.7,
-                        "wind_degree": 248,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1017.0,
-                        "pressure_in": 30.04,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 72,
-                        "cloud": 94,
-                        "feelslike_c": 6.4,
-                        "feelslike_f": 43.6,
-                        "windchill_c": 6.4,
-                        "windchill_f": 43.6,
-                        "heatindex_c": 9.2,
-                        "heatindex_f": 48.5,
-                        "dewpoint_c": 4.5,
-                        "dewpoint_f": 40.1,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.5,
-                        "gust_kph": 24.9,
-                        "uv": 2.0,
-                        "short_rad": 178.16,
-                        "diff_rad": 55.38
-                    },
-                    {
-                        "time_epoch": 1708527600,
-                        "time": "2024-02-21 16:00",
-                        "temp_c": 8.9,
-                        "temp_f": 48.1,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
-                            "code": 1006
-                        },
-                        "wind_mph": 11.0,
-                        "wind_kph": 17.6,
-                        "wind_degree": 241,
-                        "wind_dir": "WSW",
-                        "pressure_mb": 1017.0,
-                        "pressure_in": 30.02,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 73,
-                        "cloud": 78,
-                        "feelslike_c": 6.3,
-                        "feelslike_f": 43.3,
-                        "windchill_c": 6.3,
-                        "windchill_f": 43.3,
-                        "heatindex_c": 8.9,
-                        "heatindex_f": 48.1,
-                        "dewpoint_c": 4.3,
-                        "dewpoint_f": 39.7,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.9,
-                        "gust_kph": 25.6,
-                        "uv": 2.0,
-                        "short_rad": 142.54,
-                        "diff_rad": 49.57
-                    },
-                    {
-                        "time_epoch": 1708531200,
-                        "time": "2024-02-21 17:00",
-                        "temp_c": 8.1,
-                        "temp_f": 46.6,
-                        "is_day": 1,
-                        "condition": {
-                            "text": "Partly Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
-                            "code": 1003
-                        },
-                        "wind_mph": 9.6,
-                        "wind_kph": 15.5,
-                        "wind_degree": 230,
-                        "wind_dir": "SW",
-                        "pressure_mb": 1017.0,
-                        "pressure_in": 30.02,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 74,
-                        "cloud": 43,
-                        "feelslike_c": 5.5,
-                        "feelslike_f": 42.0,
-                        "windchill_c": 5.5,
-                        "windchill_f": 42.0,
-                        "heatindex_c": 8.1,
-                        "heatindex_f": 46.6,
-                        "dewpoint_c": 3.9,
-                        "dewpoint_f": 39.0,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.7,
-                        "gust_kph": 25.2,
-                        "uv": 3.0,
-                        "short_rad": 111.48,
-                        "diff_rad": 39.68
-                    },
-                    {
-                        "time_epoch": 1708534800,
-                        "time": "2024-02-21 18:00",
-                        "temp_c": 7.4,
-                        "temp_f": 45.4,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Clear ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
-                            "code": 1000
-                        },
-                        "wind_mph": 7.2,
-                        "wind_kph": 11.5,
-                        "wind_degree": 213,
-                        "wind_dir": "SSW",
-                        "pressure_mb": 1016.0,
-                        "pressure_in": 30.01,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 78,
-                        "cloud": 8,
-                        "feelslike_c": 5.3,
-                        "feelslike_f": 41.5,
-                        "windchill_c": 5.3,
-                        "windchill_f": 41.5,
-                        "heatindex_c": 7.4,
-                        "heatindex_f": 45.4,
-                        "dewpoint_c": 4.0,
-                        "dewpoint_f": 39.1,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 12.9,
-                        "gust_kph": 20.8,
-                        "uv": 1.0,
-                        "short_rad": 89.26,
-                        "diff_rad": 31.79
-                    },
-                    {
-                        "time_epoch": 1708538400,
-                        "time": "2024-02-21 19:00",
-                        "temp_c": 6.2,
-                        "temp_f": 43.2,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Clear ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
-                            "code": 1000
-                        },
-                        "wind_mph": 7.6,
-                        "wind_kph": 12.2,
-                        "wind_degree": 189,
-                        "wind_dir": "S",
-                        "pressure_mb": 1016.0,
-                        "pressure_in": 29.99,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 82,
-                        "cloud": 8,
-                        "feelslike_c": 3.7,
-                        "feelslike_f": 38.7,
-                        "windchill_c": 3.7,
-                        "windchill_f": 38.7,
-                        "heatindex_c": 6.3,
-                        "heatindex_f": 43.3,
-                        "dewpoint_c": 3.5,
-                        "dewpoint_f": 38.3,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 15.5,
-                        "gust_kph": 25.0,
-                        "uv": 1.0,
-                        "short_rad": 74.38,
-                        "diff_rad": 26.49
-                    },
-                    {
-                        "time_epoch": 1708542000,
-                        "time": "2024-02-21 20:00",
-                        "temp_c": 5.7,
-                        "temp_f": 42.3,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Partly Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
-                            "code": 1003
-                        },
-                        "wind_mph": 7.8,
-                        "wind_kph": 12.6,
-                        "wind_degree": 183,
-                        "wind_dir": "S",
-                        "pressure_mb": 1015.0,
-                        "pressure_in": 29.97,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 84,
-                        "cloud": 32,
-                        "feelslike_c": 3.0,
-                        "feelslike_f": 37.4,
-                        "windchill_c": 3.0,
-                        "windchill_f": 37.4,
-                        "heatindex_c": 5.7,
-                        "heatindex_f": 42.3,
-                        "dewpoint_c": 3.2,
-                        "dewpoint_f": 37.8,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 16.4,
-                        "gust_kph": 26.5,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708545600,
-                        "time": "2024-02-21 21:00",
-                        "temp_c": 4.0,
-                        "temp_f": 39.2,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Clear",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
-                            "code": 1000
-                        },
-                        "wind_mph": 6.9,
-                        "wind_kph": 11.2,
-                        "wind_degree": 140,
-                        "wind_dir": "SE",
-                        "pressure_mb": 1013.0,
-                        "pressure_in": 29.91,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 87,
-                        "cloud": 0,
-                        "feelslike_c": 2.4,
-                        "feelslike_f": 36.3,
-                        "windchill_c": 2.4,
-                        "windchill_f": 36.3,
-                        "heatindex_c": 5.3,
-                        "heatindex_f": 41.6,
-                        "dewpoint_c": 3.1,
-                        "dewpoint_f": 37.7,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 17.9,
-                        "gust_kph": 28.7,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708549200,
-                        "time": "2024-02-21 22:00",
-                        "temp_c": 5.5,
-                        "temp_f": 41.8,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Partly Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
-                            "code": 1003
-                        },
-                        "wind_mph": 8.3,
-                        "wind_kph": 13.3,
-                        "wind_degree": 184,
-                        "wind_dir": "S",
-                        "pressure_mb": 1014.0,
-                        "pressure_in": 29.94,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 85,
-                        "cloud": 47,
-                        "feelslike_c": 2.6,
-                        "feelslike_f": 36.7,
-                        "windchill_c": 2.6,
-                        "windchill_f": 36.7,
-                        "heatindex_c": 5.5,
-                        "heatindex_f": 41.8,
-                        "dewpoint_c": 3.1,
-                        "dewpoint_f": 37.6,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 17.0,
-                        "gust_kph": 27.4,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    },
-                    {
-                        "time_epoch": 1708552800,
-                        "time": "2024-02-21 23:00",
-                        "temp_c": 5.3,
-                        "temp_f": 41.5,
-                        "is_day": 0,
-                        "condition": {
-                            "text": "Partly Cloudy ",
-                            "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
-                            "code": 1003
-                        },
-                        "wind_mph": 8.7,
-                        "wind_kph": 14.0,
-                        "wind_degree": 186,
-                        "wind_dir": "S",
-                        "pressure_mb": 1013.0,
-                        "pressure_in": 29.91,
-                        "precip_mm": 0.0,
-                        "precip_in": 0.0,
-                        "snow_cm": 0.0,
-                        "humidity": 85,
-                        "cloud": 32,
-                        "feelslike_c": 2.2,
-                        "feelslike_f": 36.0,
-                        "windchill_c": 2.2,
-                        "windchill_f": 36.0,
-                        "heatindex_c": 5.3,
-                        "heatindex_f": 41.5,
-                        "dewpoint_c": 2.9,
-                        "dewpoint_f": 37.3,
-                        "will_it_rain": 0,
-                        "chance_of_rain": 0,
-                        "will_it_snow": 0,
-                        "chance_of_snow": 0,
-                        "vis_km": 10.0,
-                        "vis_miles": 6.0,
-                        "gust_mph": 18.3,
-                        "gust_kph": 29.5,
-                        "uv": 1.0,
-                        "short_rad": 0.0,
-                        "diff_rad": 0.0
-                    }
-                ]
+                "id": 300,
+                "main": "Drizzle",
+                "description": "light intensity drizzle",
+                "icon": "09d"
+            },
+            {
+                "id": 701,
+                "main": "Mist",
+                "description": "mist",
+                "icon": "50d"
             }
         ]
-    }
+    },
+    "hourly": [
+        {
+            "dt": 1709737200,
+            "temp": 277.54,
+            "feels_like": 274.88,
+            "pressure": 1020,
+            "humidity": 92,
+            "dew_point": 276.36,
+            "uvi": 0.02,
+            "clouds": 100,
+            "visibility": 1071,
+            "wind_speed": 3.06,
+            "wind_deg": 39,
+            "wind_gust": 6.03,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.67
+        },
+        {
+            "dt": 1709740800,
+            "temp": 277.35,
+            "feels_like": 273.92,
+            "pressure": 1020,
+            "humidity": 93,
+            "dew_point": 276.32,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 70,
+            "wind_speed": 4.19,
+            "wind_deg": 48,
+            "wind_gust": 7.14,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.75
+        },
+        {
+            "dt": 1709744400,
+            "temp": 277.05,
+            "feels_like": 273.63,
+            "pressure": 1021,
+            "humidity": 94,
+            "dew_point": 276.17,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 42,
+            "wind_speed": 4.05,
+            "wind_deg": 56,
+            "wind_gust": 8.12,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0.89
+        },
+        {
+            "dt": 1709748000,
+            "temp": 276.76,
+            "feels_like": 273.12,
+            "pressure": 1021,
+            "humidity": 95,
+            "dew_point": 276.04,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 35,
+            "wind_speed": 4.31,
+            "wind_deg": 57,
+            "wind_gust": 8.32,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }
+            ],
+            "pop": 0.89,
+            "rain": {
+                "1h": 0.51
+            }
+        },
+        {
+            "dt": 1709751600,
+            "temp": 276.24,
+            "feels_like": 272.25,
+            "pressure": 1022,
+            "humidity": 97,
+            "dew_point": 275.81,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 27,
+            "wind_speed": 4.71,
+            "wind_deg": 55,
+            "wind_gust": 9.12,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.6,
+            "snow": {
+                "1h": 0.29
+            }
+        },
+        {
+            "dt": 1709755200,
+            "temp": 275.74,
+            "feels_like": 271.82,
+            "pressure": 1022,
+            "humidity": 98,
+            "dew_point": 275.41,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 25,
+            "wind_speed": 4.37,
+            "wind_deg": 55,
+            "wind_gust": 9.02,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.6,
+            "snow": {
+                "1h": 0.26
+            }
+        },
+        {
+            "dt": 1709758800,
+            "temp": 275.68,
+            "feels_like": 271.71,
+            "pressure": 1023,
+            "humidity": 98,
+            "dew_point": 275.28,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 31,
+            "wind_speed": 4.44,
+            "wind_deg": 58,
+            "wind_gust": 9.23,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.58,
+            "snow": {
+                "1h": 0.24
+            }
+        },
+        {
+            "dt": 1709762400,
+            "temp": 275.51,
+            "feels_like": 271.42,
+            "pressure": 1023,
+            "humidity": 98,
+            "dew_point": 275.05,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 29,
+            "wind_speed": 4.58,
+            "wind_deg": 57,
+            "wind_gust": 9.93,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.58,
+            "snow": {
+                "1h": 0.22
+            }
+        },
+        {
+            "dt": 1709766000,
+            "temp": 275.35,
+            "feels_like": 271.19,
+            "pressure": 1023,
+            "humidity": 97,
+            "dew_point": 274.89,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 43,
+            "wind_speed": 4.62,
+            "wind_deg": 62,
+            "wind_gust": 10.27,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.58,
+            "snow": {
+                "1h": 0.19
+            }
+        },
+        {
+            "dt": 1709769600,
+            "temp": 275.04,
+            "feels_like": 270.69,
+            "pressure": 1023,
+            "humidity": 96,
+            "dew_point": 274.4,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 75,
+            "wind_speed": 4.83,
+            "wind_deg": 63,
+            "wind_gust": 9.92,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.58,
+            "snow": {
+                "1h": 0.13
+            }
+        },
+        {
+            "dt": 1709773200,
+            "temp": 274.54,
+            "feels_like": 270.03,
+            "pressure": 1023,
+            "humidity": 97,
+            "dew_point": 273.98,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 73,
+            "wind_speed": 4.9,
+            "wind_deg": 60,
+            "wind_gust": 10.22,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.61,
+            "snow": {
+                "1h": 0.16
+            }
+        },
+        {
+            "dt": 1709776800,
+            "temp": 274.3,
+            "feels_like": 269.68,
+            "pressure": 1023,
+            "humidity": 97,
+            "dew_point": 273.77,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 89,
+            "wind_speed": 4.98,
+            "wind_deg": 54,
+            "wind_gust": 10.3,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.61,
+            "snow": {
+                "1h": 0.22
+            }
+        },
+        {
+            "dt": 1709780400,
+            "temp": 273.93,
+            "feels_like": 269.08,
+            "pressure": 1023,
+            "humidity": 97,
+            "dew_point": 273.34,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 215,
+            "wind_speed": 5.23,
+            "wind_deg": 55,
+            "wind_gust": 10.39,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.53,
+            "snow": {
+                "1h": 0.2
+            }
+        },
+        {
+            "dt": 1709784000,
+            "temp": 273.69,
+            "feels_like": 268.82,
+            "pressure": 1023,
+            "humidity": 96,
+            "dew_point": 272.96,
+            "uvi": 0,
+            "clouds": 99,
+            "visibility": 2582,
+            "wind_speed": 5.16,
+            "wind_deg": 56,
+            "wind_gust": 10.19,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.53,
+            "snow": {
+                "1h": 0.2
+            }
+        },
+        {
+            "dt": 1709787600,
+            "temp": 273.38,
+            "feels_like": 268.3,
+            "pressure": 1023,
+            "humidity": 95,
+            "dew_point": 272.6,
+            "uvi": 0,
+            "clouds": 99,
+            "visibility": 555,
+            "wind_speed": 5.4,
+            "wind_deg": 55,
+            "wind_gust": 10.49,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "pop": 0.53,
+            "snow": {
+                "1h": 0.19
+            }
+        },
+        {
+            "dt": 1709791200,
+            "temp": 273.41,
+            "feels_like": 268.24,
+            "pressure": 1024,
+            "humidity": 95,
+            "dew_point": 272.52,
+            "uvi": 0.09,
+            "clouds": 99,
+            "visibility": 604,
+            "wind_speed": 5.58,
+            "wind_deg": 58,
+            "wind_gust": 10.82,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "pop": 0.53,
+            "snow": {
+                "1h": 0.2
+            }
+        },
+        {
+            "dt": 1709794800,
+            "temp": 273.84,
+            "feels_like": 268.51,
+            "pressure": 1024,
+            "humidity": 93,
+            "dew_point": 272.7,
+            "uvi": 0.33,
+            "clouds": 99,
+            "visibility": 7095,
+            "wind_speed": 6.13,
+            "wind_deg": 62,
+            "wind_gust": 10.64,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "pop": 0.45,
+            "snow": {
+                "1h": 0.13
+            }
+        },
+        {
+            "dt": 1709798400,
+            "temp": 274.29,
+            "feels_like": 269.25,
+            "pressure": 1024,
+            "humidity": 92,
+            "dew_point": 273.05,
+            "uvi": 0.59,
+            "clouds": 100,
+            "visibility": 6978,
+            "wind_speed": 5.78,
+            "wind_deg": 66,
+            "wind_gust": 9.74,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "pop": 0.45,
+            "snow": {
+                "1h": 0.14
+            }
+        },
+        {
+            "dt": 1709802000,
+            "temp": 274.62,
+            "feels_like": 269.67,
+            "pressure": 1024,
+            "humidity": 90,
+            "dew_point": 273.09,
+            "uvi": 0.77,
+            "clouds": 100,
+            "visibility": 8737,
+            "wind_speed": 5.78,
+            "wind_deg": 69,
+            "wind_gust": 9.45,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.41
+        },
+        {
+            "dt": 1709805600,
+            "temp": 275.21,
+            "feels_like": 270.45,
+            "pressure": 1024,
+            "humidity": 87,
+            "dew_point": 273.11,
+            "uvi": 1.05,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 5.72,
+            "wind_deg": 70,
+            "wind_gust": 8.84,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.33
+        },
+        {
+            "dt": 1709809200,
+            "temp": 275.87,
+            "feels_like": 271.22,
+            "pressure": 1024,
+            "humidity": 82,
+            "dew_point": 272.96,
+            "uvi": 1.14,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 5.85,
+            "wind_deg": 71,
+            "wind_gust": 8.61,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.29
+        },
+        {
+            "dt": 1709812800,
+            "temp": 276.55,
+            "feels_like": 272.14,
+            "pressure": 1023,
+            "humidity": 78,
+            "dew_point": 272.9,
+            "uvi": 0.91,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 5.71,
+            "wind_deg": 71,
+            "wind_gust": 8.21,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.25
+        },
+        {
+            "dt": 1709816400,
+            "temp": 277.19,
+            "feels_like": 272.83,
+            "pressure": 1023,
+            "humidity": 72,
+            "dew_point": 272.57,
+            "uvi": 0.63,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 6,
+            "wind_deg": 74,
+            "wind_gust": 8.11,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.21
+        },
+        {
+            "dt": 1709820000,
+            "temp": 277.23,
+            "feels_like": 273.17,
+            "pressure": 1023,
+            "humidity": 73,
+            "dew_point": 272.65,
+            "uvi": 0.3,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 5.34,
+            "wind_deg": 77,
+            "wind_gust": 7.9,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.29
+        },
+        {
+            "dt": 1709823600,
+            "temp": 276.85,
+            "feels_like": 272.79,
+            "pressure": 1023,
+            "humidity": 74,
+            "dew_point": 272.48,
+            "uvi": 0.1,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 5.15,
+            "wind_deg": 80,
+            "wind_gust": 8.14,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.33
+        },
+        {
+            "dt": 1709827200,
+            "temp": 276.49,
+            "feels_like": 272.44,
+            "pressure": 1024,
+            "humidity": 75,
+            "dew_point": 272.26,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 4.95,
+            "wind_deg": 81,
+            "wind_gust": 8.49,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ],
+            "pop": 0.33
+        },
+        {
+            "dt": 1709830800,
+            "temp": 276.31,
+            "feels_like": 272.25,
+            "pressure": 1024,
+            "humidity": 75,
+            "dew_point": 272.17,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 4.87,
+            "wind_deg": 81,
+            "wind_gust": 8.64,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0.29
+        },
+        {
+            "dt": 1709834400,
+            "temp": 276.19,
+            "feels_like": 272.08,
+            "pressure": 1024,
+            "humidity": 76,
+            "dew_point": 272.22,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 4.92,
+            "wind_deg": 81,
+            "wind_gust": 8.94,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0.22
+        },
+        {
+            "dt": 1709838000,
+            "temp": 276.06,
+            "feels_like": 272.09,
+            "pressure": 1024,
+            "humidity": 77,
+            "dew_point": 272.29,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 4.6,
+            "wind_deg": 82,
+            "wind_gust": 8.82,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0.04
+        },
+        {
+            "dt": 1709841600,
+            "temp": 276,
+            "feels_like": 272.06,
+            "pressure": 1024,
+            "humidity": 77,
+            "dew_point": 272.29,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 4.52,
+            "wind_deg": 81,
+            "wind_gust": 8.91,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709845200,
+            "temp": 275.9,
+            "feels_like": 271.96,
+            "pressure": 1024,
+            "humidity": 77,
+            "dew_point": 272.25,
+            "uvi": 0,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 4.47,
+            "wind_deg": 80,
+            "wind_gust": 9,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709848800,
+            "temp": 275.76,
+            "feels_like": 271.84,
+            "pressure": 1024,
+            "humidity": 78,
+            "dew_point": 272.22,
+            "uvi": 0,
+            "clouds": 99,
+            "visibility": 10000,
+            "wind_speed": 4.39,
+            "wind_deg": 82,
+            "wind_gust": 9.02,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709852400,
+            "temp": 275.55,
+            "feels_like": 271.77,
+            "pressure": 1024,
+            "humidity": 78,
+            "dew_point": 272.07,
+            "uvi": 0,
+            "clouds": 98,
+            "visibility": 10000,
+            "wind_speed": 4.07,
+            "wind_deg": 85,
+            "wind_gust": 8.6,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709856000,
+            "temp": 274.99,
+            "feels_like": 271.36,
+            "pressure": 1024,
+            "humidity": 80,
+            "dew_point": 271.73,
+            "uvi": 0,
+            "clouds": 92,
+            "visibility": 10000,
+            "wind_speed": 3.66,
+            "wind_deg": 85,
+            "wind_gust": 7.78,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709859600,
+            "temp": 275,
+            "feels_like": 271.49,
+            "pressure": 1023,
+            "humidity": 80,
+            "dew_point": 271.77,
+            "uvi": 0,
+            "clouds": 65,
+            "visibility": 10000,
+            "wind_speed": 3.49,
+            "wind_deg": 90,
+            "wind_gust": 7.48,
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709863200,
+            "temp": 274.72,
+            "feels_like": 271.32,
+            "pressure": 1023,
+            "humidity": 82,
+            "dew_point": 271.76,
+            "uvi": 0,
+            "clouds": 63,
+            "visibility": 10000,
+            "wind_speed": 3.27,
+            "wind_deg": 92,
+            "wind_gust": 7.14,
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709866800,
+            "temp": 274.06,
+            "feels_like": 270.8,
+            "pressure": 1023,
+            "humidity": 85,
+            "dew_point": 271.71,
+            "uvi": 0,
+            "clouds": 55,
+            "visibility": 10000,
+            "wind_speed": 2.93,
+            "wind_deg": 89,
+            "wind_gust": 6.42,
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709870400,
+            "temp": 273.48,
+            "feels_like": 270.15,
+            "pressure": 1023,
+            "humidity": 87,
+            "dew_point": 271.46,
+            "uvi": 0,
+            "clouds": 44,
+            "visibility": 10000,
+            "wind_speed": 2.88,
+            "wind_deg": 85,
+            "wind_gust": 6.22,
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709874000,
+            "temp": 273.12,
+            "feels_like": 269.76,
+            "pressure": 1023,
+            "humidity": 88,
+            "dew_point": 271.28,
+            "uvi": 0,
+            "clouds": 37,
+            "visibility": 10000,
+            "wind_speed": 2.84,
+            "wind_deg": 83,
+            "wind_gust": 6.28,
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03n"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709877600,
+            "temp": 273.45,
+            "feels_like": 270.29,
+            "pressure": 1023,
+            "humidity": 86,
+            "dew_point": 271.37,
+            "uvi": 0.18,
+            "clouds": 32,
+            "visibility": 10000,
+            "wind_speed": 2.69,
+            "wind_deg": 84,
+            "wind_gust": 7.18,
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709881200,
+            "temp": 274.82,
+            "feels_like": 271.09,
+            "pressure": 1023,
+            "humidity": 78,
+            "dew_point": 271.31,
+            "uvi": 0.57,
+            "clouds": 9,
+            "visibility": 10000,
+            "wind_speed": 3.75,
+            "wind_deg": 90,
+            "wind_gust": 7.4,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709884800,
+            "temp": 276.13,
+            "feels_like": 272.29,
+            "pressure": 1023,
+            "humidity": 71,
+            "dew_point": 271.3,
+            "uvi": 1.14,
+            "clouds": 9,
+            "visibility": 10000,
+            "wind_speed": 4.39,
+            "wind_deg": 92,
+            "wind_gust": 6.7,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709888400,
+            "temp": 277.28,
+            "feels_like": 273.59,
+            "pressure": 1022,
+            "humidity": 67,
+            "dew_point": 271.58,
+            "uvi": 1.78,
+            "clouds": 9,
+            "visibility": 10000,
+            "wind_speed": 4.63,
+            "wind_deg": 92,
+            "wind_gust": 5.94,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709892000,
+            "temp": 278.36,
+            "feels_like": 274.93,
+            "pressure": 1022,
+            "humidity": 64,
+            "dew_point": 272.04,
+            "uvi": 2.23,
+            "clouds": 9,
+            "visibility": 10000,
+            "wind_speed": 4.63,
+            "wind_deg": 92,
+            "wind_gust": 5.41,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709895600,
+            "temp": 279.29,
+            "feels_like": 276.2,
+            "pressure": 1021,
+            "humidity": 62,
+            "dew_point": 272.42,
+            "uvi": 2.3,
+            "clouds": 11,
+            "visibility": 10000,
+            "wind_speed": 4.4,
+            "wind_deg": 92,
+            "wind_gust": 4.91,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709899200,
+            "temp": 280.18,
+            "feels_like": 277.42,
+            "pressure": 1021,
+            "humidity": 60,
+            "dew_point": 272.82,
+            "uvi": 1.99,
+            "clouds": 12,
+            "visibility": 10000,
+            "wind_speed": 4.16,
+            "wind_deg": 92,
+            "wind_gust": 4.56,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709902800,
+            "temp": 280.71,
+            "feels_like": 278.23,
+            "pressure": 1020,
+            "humidity": 59,
+            "dew_point": 273.12,
+            "uvi": 1.4,
+            "clouds": 21,
+            "visibility": 10000,
+            "wind_speed": 3.86,
+            "wind_deg": 94,
+            "wind_gust": 4.22,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "pop": 0
+        },
+        {
+            "dt": 1709906400,
+            "temp": 280.9,
+            "feels_like": 278.48,
+            "pressure": 1020,
+            "humidity": 59,
+            "dew_point": 273.37,
+            "uvi": 0.77,
+            "clouds": 25,
+            "visibility": 10000,
+            "wind_speed": 3.82,
+            "wind_deg": 95,
+            "wind_gust": 4.07,
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03d"
+                }
+            ],
+            "pop": 0
+        }
+    ],
+    "daily": [
+        {
+            "dt": 1709719200,
+            "sunrise": 1709701978,
+            "sunset": 1709742632,
+            "moonrise": 1709696160,
+            "moonset": 1709722200,
+            "moon_phase": 0.85,
+            "temp": {
+                "day": 277.52,
+                "min": 275.46,
+                "max": 278.26,
+                "night": 275.51,
+                "eve": 277.35,
+                "morn": 275.84
+            },
+            "feels_like": {
+                "day": 275.31,
+                "night": 271.42,
+                "eve": 273.92,
+                "morn": 275.84
+            },
+            "pressure": 1021,
+            "humidity": 86,
+            "dew_point": 275.33,
+            "wind_speed": 4.71,
+            "wind_deg": 55,
+            "wind_gust": 9.93,
+            "weather": [
+                {
+                    "id": 616,
+                    "main": "Snow",
+                    "description": "rain and snow",
+                    "icon": "13d"
+                }
+            ],
+            "clouds": 43,
+            "pop": 0.89,
+            "rain": 1.59,
+            "snow": 1.01,
+            "uvi": 1.76
+        },
+        {
+            "dt": 1709805600,
+            "sunrise": 1709788251,
+            "sunset": 1709829129,
+            "moonrise": 1709784900,
+            "moonset": 1709813820,
+            "moon_phase": 0.89,
+            "temp": {
+                "day": 275.21,
+                "min": 273.38,
+                "max": 277.23,
+                "night": 275.76,
+                "eve": 276.49,
+                "morn": 273.69
+            },
+            "feels_like": {
+                "day": 270.45,
+                "night": 271.84,
+                "eve": 272.44,
+                "morn": 268.82
+            },
+            "pressure": 1024,
+            "humidity": 87,
+            "dew_point": 273.11,
+            "wind_speed": 6.13,
+            "wind_deg": 62,
+            "wind_gust": 10.82,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "clouds": 100,
+            "pop": 0.61,
+            "snow": 1.76,
+            "uvi": 1.14
+        },
+        {
+            "dt": 1709892000,
+            "sunrise": 1709874523,
+            "sunset": 1709915626,
+            "moonrise": 1709872980,
+            "moonset": 1709905740,
+            "moon_phase": 0.92,
+            "temp": {
+                "day": 278.36,
+                "min": 273.12,
+                "max": 280.9,
+                "night": 277.99,
+                "eve": 279.95,
+                "morn": 273.48
+            },
+            "feels_like": {
+                "day": 274.93,
+                "night": 275.77,
+                "eve": 277.83,
+                "morn": 270.15
+            },
+            "pressure": 1022,
+            "humidity": 64,
+            "dew_point": 272.04,
+            "wind_speed": 4.63,
+            "wind_deg": 92,
+            "wind_gust": 8.6,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "clouds": 9,
+            "pop": 0,
+            "uvi": 2.3
+        },
+        {
+            "dt": 1709978400,
+            "sunrise": 1709960795,
+            "sunset": 1710002123,
+            "moonrise": 1709960640,
+            "moonset": 1709997720,
+            "moon_phase": 0.96,
+            "temp": {
+                "day": 279.85,
+                "min": 274.93,
+                "max": 283.81,
+                "night": 278.23,
+                "eve": 283.81,
+                "morn": 275.23
+            },
+            "feels_like": {
+                "day": 278.98,
+                "night": 276.87,
+                "eve": 282.29,
+                "morn": 273.93
+            },
+            "pressure": 1019,
+            "humidity": 66,
+            "dew_point": 273.96,
+            "wind_speed": 3,
+            "wind_deg": 101,
+            "wind_gust": 4.09,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "clouds": 7,
+            "pop": 0,
+            "uvi": 2.25
+        },
+        {
+            "dt": 1710064800,
+            "sunrise": 1710047066,
+            "sunset": 1710088620,
+            "moonrise": 1710048060,
+            "moonset": 1710089580,
+            "moon_phase": 0,
+            "temp": {
+                "day": 280.95,
+                "min": 276.4,
+                "max": 285.38,
+                "night": 281.32,
+                "eve": 285.38,
+                "morn": 276.4
+            },
+            "feels_like": {
+                "day": 279.41,
+                "night": 280.06,
+                "eve": 284.28,
+                "morn": 274.76
+            },
+            "pressure": 1013,
+            "humidity": 64,
+            "dew_point": 274.44,
+            "wind_speed": 3.46,
+            "wind_deg": 108,
+            "wind_gust": 5.47,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 100,
+            "pop": 0.23,
+            "rain": 0.11,
+            "uvi": 2
+        },
+        {
+            "dt": 1710151200,
+            "sunrise": 1710133337,
+            "sunset": 1710175117,
+            "moonrise": 1710135360,
+            "moonset": 1710181320,
+            "moon_phase": 0.04,
+            "temp": {
+                "day": 285.01,
+                "min": 279.98,
+                "max": 287.97,
+                "night": 283.66,
+                "eve": 287.97,
+                "morn": 280.64
+            },
+            "feels_like": {
+                "day": 283.97,
+                "night": 282.86,
+                "eve": 287.02,
+                "morn": 279.53
+            },
+            "pressure": 1011,
+            "humidity": 66,
+            "dew_point": 278.73,
+            "wind_speed": 3.14,
+            "wind_deg": 114,
+            "wind_gust": 4.42,
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03d"
+                }
+            ],
+            "clouds": 47,
+            "pop": 0.1,
+            "uvi": 2
+        },
+        {
+            "dt": 1710237600,
+            "sunrise": 1710219607,
+            "sunset": 1710261613,
+            "moonrise": 1710222720,
+            "moonset": 1710273060,
+            "moon_phase": 0.08,
+            "temp": {
+                "day": 284.16,
+                "min": 281.41,
+                "max": 284.16,
+                "night": 282.43,
+                "eve": 283.27,
+                "morn": 281.81
+            },
+            "feels_like": {
+                "day": 283.38,
+                "night": 282.43,
+                "eve": 282.66,
+                "morn": 281.81
+            },
+            "pressure": 1018,
+            "humidity": 79,
+            "dew_point": 280.56,
+            "wind_speed": 1.66,
+            "wind_deg": 77,
+            "wind_gust": 2.13,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 80,
+            "pop": 0.88,
+            "rain": 2.6,
+            "uvi": 2
+        },
+        {
+            "dt": 1710324000,
+            "sunrise": 1710305877,
+            "sunset": 1710348109,
+            "moonrise": 1710310080,
+            "moonset": 1710364740,
+            "moon_phase": 0.12,
+            "temp": {
+                "day": 282.87,
+                "min": 280.09,
+                "max": 284.68,
+                "night": 280.09,
+                "eve": 284.4,
+                "morn": 280.93
+            },
+            "feels_like": {
+                "day": 282.28,
+                "night": 279.17,
+                "eve": 283.07,
+                "morn": 280.93
+            },
+            "pressure": 1023,
+            "humidity": 69,
+            "dew_point": 277.24,
+            "wind_speed": 3.09,
+            "wind_deg": 72,
+            "wind_gust": 3.08,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 100,
+            "pop": 0.68,
+            "rain": 0.41,
+            "uvi": 2
+        }
+    ]
 }
